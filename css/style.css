@@ -45,8 +45,8 @@ body {
 
 }
 
-.icons .img {
-    width: 120px;
+.icons img {
+    width: 100px;
 }
 
 .product-content {
@@ -59,7 +59,7 @@ body {
 }
 
 .product-txt span {
-font-size: 12px;
+font-size: 20px;
 color: var(--icon-color);
 font-weight: bold;
 }
@@ -87,8 +87,10 @@ font-weight: bold;
     display: inline-block;
     padding: 13px 55px;
     border: 1px solid var(--icon-color);
+    border-radius: 20px;
     text-decoration: none;
     margin-top: 50px;
+    color: var(--icon-color);
 }
 
 a{
